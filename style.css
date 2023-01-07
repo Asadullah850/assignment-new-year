@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+header{
+    background-image: url(images/banner/banner3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;    
+}
+.header{
+    text-align: right;
+    margin: 0px 10px 0 47%;
+    padding: 175px 70px;
+}
+.header p{
+    font-weight: 700;
+    margin: 10px;
+}
+.part-description{
+    margin: auto 0;
+}
+.part-description ul li:before {
+    content: '✓';
+    color: green;
+}
+.contact-butt{
+    color: #005FAC;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* main */
+main{
+    margin: 50px 10%;
+}
+/* body-part-one */
+.body-part-one{
+    display: flex;
+    gap: 30px;
+}
+.body-part-one .img{
+    width: 45%;
+}
+.body-part-one .img img{
+    width: 100%;
+}
+.part-description{
+    width: 45%;
+    margin-left: 10px;
+}
+
+.part-description ul li{
+    list-style: none;
+}
+/* body-ext */
+.body-ext{
+    margin: 20px 0;
+    text-align: center;
+}
+.body-ext h1{
+    margin: 30px 0;
+    text-decoration:underline #026902;
+    text-decoration-style:wavy;
+}
+.body-ext img{
+    width: 100%;
+    margin-bottom: 40px;
+}
+/* body-part-two */
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.body-part-two{
+    text-align: center;
+}
+.body-part-two h1{
+    margin: 20px 0 ;
+}
+.part-two-child h1{
+    margin: 1px 0;
+}
+/* body-part-three */
+.body-part-three{
+    background-image: url(images/watch.png), url(images/gradient1.png);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: center;
+    padding: 10%;
+    margin: 100px 0;
+}
+.body-part-three h1{
+    margin: 10px 0;
+    width: 40%;
+}
+/* footer */
+footer{
+    height: 335px;
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    padding: 7% 20% 0 20%;
+}
+.left-footer{
+    width: 60%;
+}
+.left-footer h1{
+margin-bottom: 10px;
+}
+.left-footer p{
+    margin: 10px 0;
+}
+.social-link-img{
+    margin-top: 30px;
+}
+.social-link-img img{
+    margin: 10px  10px 0 0;
+}
+.right-footer{
+    color: #ffffff;
+}
+.right-footer input{
+    margin: 10px 0;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: transparent;
+}
+.subsc-butt{
+    background-color: #005FAC;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.b-text-color{
+    color: #444343;
+}
+.w-text-color{
+    color: #ffffff;
+}
